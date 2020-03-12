@@ -27,7 +27,7 @@ public class FreightCar extends RailCar
 		super.drawCar(g);
 		drawFreightDoors(g);
 	}
-   
+
 	private void drawFreightDoors(Graphics g)
 	{
 		g.setColor(Color.black);
@@ -41,4 +41,3 @@ public class FreightCar extends RailCar
       g.fillRect(xPos+80,yPos+35,5,15);
 	}
  }
-

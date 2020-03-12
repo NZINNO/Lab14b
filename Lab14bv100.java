@@ -24,4 +24,3 @@ public class Lab14bv100 extends Applet
       train.showCars(g);
 	}
 }
-

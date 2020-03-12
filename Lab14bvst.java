@@ -20,11 +20,10 @@ public class Lab14bvst extends Applet
       railCars.add(new PassengerCar(Color.gray,450,300));
       railCars.add(new PassengerCar(Color.gray,625,300));
       railCars.add(new FreightCar(Color.green,800,300));
-      railCars.add(new FreightCar(Color.green,975,300));      
+      railCars.add(new FreightCar(Color.green,975,300));
       railCars.add(new Caboose(Color.red,1150,300));
-      
+
       for (RailCar railCar : railCars)
          railCar.drawCar(g);
 	}
 }
-	

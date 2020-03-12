@@ -36,7 +36,7 @@ class PassengerCar extends RailCar
 	    g.fillRect(xPos+80,yPos+30,25,30);
        g.fillRect(xPos+115,yPos+30,25,30);
 	}
-   
+
    private void drawRoof(Graphics g)
    {
       Polygon roof = new Polygon();
@@ -46,6 +46,5 @@ class PassengerCar extends RailCar
       roof.addPoint(xPos+165,yPos+20);
       g.setColor(carColor);
       g.fillPolygon(roof);
-   }   
+   }
 }
-	
