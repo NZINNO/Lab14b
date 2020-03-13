@@ -25,7 +25,7 @@ public class Locomotive extends RailCar
 	{
 		super.drawCar(g);
 		drawScoop(g);
-		drawFunnel(g);
+		drawFunnel(g); 
 	}
 
 	private void drawScoop(Graphics g)

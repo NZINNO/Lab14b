@@ -29,7 +29,7 @@ public class RailCar
       drawLink(g);
 	}
 
-   private void drawContainer(Graphics g)
+   private void drawContainer(Graphics g) 
    {
    	g.setColor(carColor);
    	g.fillRect(xPos,yPos,150,100);

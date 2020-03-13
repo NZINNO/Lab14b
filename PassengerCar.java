@@ -28,7 +28,7 @@ class PassengerCar extends RailCar
       drawRoof(g);
 	}
 
-	private void drawWindows(Graphics g)
+	private void drawWindows(Graphics g) 
 	{
 	    g.setColor(Color.white);
 	    g.fillRect(xPos+10,yPos+30,25,30);

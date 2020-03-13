@@ -24,7 +24,7 @@ public class Caboose extends RailCar
 	public void drawCar(Graphics g)
 	{
 		super.drawCar(g);
-		drawWindows(g);
+		drawWindows(g); 
 		drawCupola(g);
 	}
 

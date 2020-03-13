@@ -11,7 +11,7 @@ import java.awt.*;
 public class FreightCar extends RailCar
 {
 	private Color carColor;
-	private int xPos;
+	private int xPos; 
 	private int yPos;
 
 	public FreightCar(Color cC, int xPos, int yPos)

@@ -24,6 +24,6 @@ public class Lab14bvst extends Applet
       railCars.add(new Caboose(Color.red,1150,300));
 
       for (RailCar railCar : railCars)
-         railCar.drawCar(g);
+         railCar.drawCar(g); 
 	}
 }
